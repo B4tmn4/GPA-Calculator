@@ -81,21 +81,21 @@ def main():
             total_grade_points = HD_count * 48 + D_count * 36 + CR_count * 24 + P_count * 12
             GPA = round(total_grade_points / (unit_credit_points * num_of_units), 1)
 
-            print("Congratulations! You have a GPA of:", GPA)
+            print("\nCongratulations! You have a GPA of:", GPA)
 
         except ValueError as e:
             print("Error:", e)
             # If there's an error, the program will return to the start, allowing the user to input the number of units again
 
         # Ask the user if they want to calculate another GPA
-        calculate_another = input("Do you want to calculate another GPA? (yes/no): ").lower()
+        calculate_another = input("\nDo you want to calculate another GPA? (yes/no): ").lower()
         if calculate_another != "yes":
-            print("Thank you for using the GPA calculator. Goodbye!")
+            print("\nThank you for using the GPA calculator. Goodbye!")
             break
 if __name__ == "__main__":
     main()
 
 # Keep the terminal window open until the user presses Enter
-input("Press Enter to exit...")
+input("\nPress Enter to exit...")
 
 
