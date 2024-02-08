@@ -1,6 +1,6 @@
 # GPA Calculator
 
-This is a simple tool to calculate your GPA, valid for RMIT University. This tool assumes that every unit is worth 12 credit points and will ask the user for the following inputs:
+This is a simple tool to calculate your GPA, valid for RMIT University. This tool assumes that every unit is worth `12 credit points` and will ask the user for the following inputs:
 
 - total amount of units studied
 - How many subjects they achieved HD marks in
